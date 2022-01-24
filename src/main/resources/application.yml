@@ -8,11 +8,10 @@ logging:
 # Mail
 mail:
   imap:
-    ssl: true
     host: imap.gmail.com
     port: 993
-    username: your-email%40gmail.com
-    password: your-password
+    username: ${MAIL_USR}
+    password: ${MAIL_PWD}
 
 # Task execution
 spring:

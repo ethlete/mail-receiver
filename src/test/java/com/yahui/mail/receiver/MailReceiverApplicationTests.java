@@ -1,4 +1,4 @@
-package com.huytmb.mail.receiver;
+package com.yahui.mail.receiver;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
